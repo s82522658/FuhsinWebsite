@@ -1,0 +1,280 @@
+/*最上面navbar*/
+.navbar{
+	background-color:#29292a;
+	height:70px;
+	/*background-color: transparent;*/
+	/*border-color:transparent;*/
+	/*background-color:#29292a;*/
+	margin:0;
+}
+/*最上面navbar的文字*/
+.nav-item{
+	background-color: transparent;
+	color:white;
+	font-size:1.5em;
+	font-family:"Karla","PT sans narrow",helvetica,arial,sans-serif;
+}
+/*背景圖片*/
+.background{
+	background-color:rgba(0,0,0,0.2); 
+	background:url(https://i.imgur.com/fx1VNav.jpg) center center no-repeat fixed;
+	background-size:cover;
+	max-width: 100%;
+	height:600px;
+	position: relative;
+	/*margin-top:50px;*/
+}
+.site-branding{
+	text-align:center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.vertical{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/**/
+.wrapper{
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    max-width: calc(1200px - 1em);
+    padding-left: 2em;
+    padding-right: 2em;
+}
+/*首頁大標題*/
+.title{
+	color:white;
+	font-family:"Karla","Helvetica Neue","PT sans narrow",helvetica,arial,sans-serif;
+	font-size:70px;
+	font-weight: 800;
+}
+.subtitle{
+	color:#eeeeee;
+	font-family:"Karla","Helvetica Neue","PT sans narrow",helvetica,arial,sans-serif;
+	font-size:30px;
+	font-weight: light;
+	font-style: italic;
+	opacity:;
+}
+/*內文*/
+.content{
+	text-align:center;
+}
+.introduction{
+	font-family:微軟正黑體,"open sans",Merriweather,serif,;
+	text-align: center;
+	margin-bottom:200px;
+	margin-top: 200px;
+	margin-left:10%;
+	margin-right: 10%;
+}
+.introduction-pic{
+	background: url(https://i.imgur.com/FX6lKjB.jpg) center center no-repeat fixed;
+	background-size:cover;
+	max-width:100%;
+	/*width:90%;*/
+	height:500px;
+	margin-top:30px;
+	/*float:right;*/
+}
+.introduction h1{
+	text-align: left;
+	color:#4a4a4a;
+	font-size:40px;
+	font-weight:bold;	
+}
+.introduction .plaintext{
+	font-size:16px;
+	color:#5d686f;
+}
+
+.lifestory-wrapper{
+
+	margin-bottom:350px;
+}
+/*內文*/
+.lifestory{
+	font-family:微軟正黑體,"open sans",Merriweather,serif,;
+	margin:10% 55% auto 10%;
+}
+.lifestory h1{
+	text-align: right;
+	/*color:#337ab7;*/
+	color:#4a4a4a;
+	font-size:30px;
+	font-weight:bold;
+	font-style:italic;
+}
+.lifestory .plaintext{
+	font-size:16px;
+	color:#5d686f;
+	/*opacity: 1;*/
+	
+}
+.lifestory .side-bar{
+	border-left-width:0.5em;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-color: #9d9d9d;
+	border-style:solid;
+	padding-left:5px;
+	/*opacity: 0.2;*/
+}
+.lifestory-pic{
+	background: url(https://i.imgur.com/65Hgxxe.jpg) center right no-repeat fixed;
+	background-size:;
+	max-width:100%;
+	width:600px;
+	height:350px;
+	margin:auto 10% auto auto;
+	float:right;
+}
+.skill{
+	font-family:微軟正黑體;
+	/*margin-top:100px;*/
+	margin:100px 10% auto 10%;
+}
+.skill .plaintext{
+	font-size:20px;
+}
+.skill h1{
+	/*margin-left:25%;*/
+	margin-bottom:30px;
+	text-align:left;
+	font-weight:bold;
+	font-size:30px;
+	color:#4a4a4a;
+}
+.skill h2{
+	text-align: left;
+	margin-left:5%;
+	font-family: "Karla","Helvetica Neue","PT sans narrow",helvetica,arial,sans-serif;
+	font-size:20px;
+	font-style:italic;
+	color:#9d9d9d;
+}
+.hobby-wrapper{
+	margin:200px auto 300px auto;
+}
+/*Surrond content and h1*/
+.hobby{
+	/*color:#555;*/
+	font-family:微軟正黑體;
+	
+	margin:100px 10% auto 55%;
+	
+}
+.hobby-pic{
+	background: url(https://i.imgur.com/fEEraJW.jpg) center left no-repeat fixed;
+	background-size:;
+	max-width:100%;
+	width:600px;
+	height:350px;
+	margin:auto auto auto 10%;
+	float:left;
+}
+.hobby .plaintext{
+	font-size:16px;
+	color:#5d686f;
+}
+.hobby h1{
+	text-align:left;
+	font-weight:bold;
+	font-size:30px;
+	font-style: italic;
+	color:#4a4a4a;
+	margin-bottom:20px;
+}
+.hobby .side-bar{
+	border-left-width:0;
+	border-right-width: 0.5em;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-right-color: #9d9d9d;
+	border-style:solid;
+	padding-right:5px;
+	/*opacity: 0.2;*/
+}
+.myicon{
+	text-align: center;
+	line-height:100px;
+	font-size:16px;
+
+}
+.myicon .icons{
+	color: #9d9d9d;
+}
+.mytag{
+	margin-bottom: 20px;
+}
+.mytag a{
+	display: inline-block;
+    border: 1px solid #9d9d9d ;
+    border-radius: 999em;
+    padding: 0 10px;
+    color: #9d9d9d ;
+    line-height: 24px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 1px;
+    margin-bottom: 6px;
+}
+.mytag a:hover{
+	display: inline-block;
+    border: 1px solid #337ab7 ;
+    border-radius: 999em;
+    padding: 0 10px;
+    color: #337ab7;
+    line-height: 24px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 1px;
+    margin-bottom: 6px;
+}
+/*最底層的navbar*/
+.footer{
+	max-width: 100%;
+	height:200px;
+	margin-bottom: 0;
+	margin-top:50px;
+	background-color:#29292a;
+}
+/*底層navbar裡的字*/
+.site-info{
+	line-height: 30px;
+	text-align:center;
+	color:#9d9d9d;
+	font-family:"Karla","Helvetica Neue","PT sans narrow",helvetica,arial,sans-serif;
+	font-size:1em;
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom: 0;
+	/*margin-top: 10px;*/
+}
+
+body{
+	/*padding-left:25%;*/
+	/*padding-right:25%;*/
+	/*padding-top:70px;*/
+	position:relative;
+	font-family:"Karla","Helvetica Neue",sans-serif;
+}
+h1{
+	font-family:"Karla","Helvetica Neue",sans-serif;
+	/*font-style: italic;*/
+}
+a{
+	transition: opacity .2s;
+	text-decoration:none;
+}
+.site-branding a:hover {
+	color:white;
+	opacity:.7;
+	text-decoration:none;
+}

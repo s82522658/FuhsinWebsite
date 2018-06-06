@@ -1,0 +1,37 @@
+.contact{
+	font-family: "Karla","Helvetica Neue","PT sans narrow",helvetica,arial,sans-serif;
+}
+.contact h2{
+	font-size: 40px;
+	color:#4a4a4a;
+	text-align:center;
+}
+.contact .form{
+	text-align: center;
+	/*width:480px;*/
+	border-radius:999em;
+	/*margin:20px 0 20px -1.5em;*/
+}
+.contact .name{
+	/*float:left;*/
+	/*padding: 1.5em 0 0 1.5em;*/
+	/*width:50%;*/
+
+}
+.contact .email{
+	/*float:right;*/
+	/*padding: 1.5em 0 0 1.5em;*/
+	/*width:50%;*/
+}
+.contact .context{
+	/*width:100%;*/
+	/*margin-left:20px;*/
+	/*margin-right:20px;*/
+}
+.contact .btn{
+	border-radius: 30px;
+	font-size:25px;
+	padding:0.4em 1.7em;
+	background-color: #383b43;
+    color: #ffffff;
+}
